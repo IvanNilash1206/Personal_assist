@@ -1,8 +1,7 @@
-# backend/main.py
 from fastapi import FastAPI
 
-app = FastAPI(title="PulseAI Backend")
+app = FastAPI()
 
 @app.get("/")
-async def root():
+def read_root():
     return {"message": "PulseAI backend is alive"}
