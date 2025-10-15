@@ -4,3 +4,7 @@ pydantic
 python-dotenv
 sqlalchemy
 psycopg2-binary
+sqlalchemy
+alembic
+psycopg2-binary
+python-dotenv
